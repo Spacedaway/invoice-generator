@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Invoice Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Invoice creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>
+        </div>
+        <div class="buttons">
+            <button id="btn-1" class="btn">Wash Car: $10</button>
+            <button id="btn-2" class="btn">Mow Lawn: $20</button>
+            <button id="btn-3" class="btn">Pull Weeds: $30</button>
+        </div>
+        <div class="task">
+            <div class="show">
+                <p>TASK</p>
+                <p>TOTAL</p>
+            </div>
+            <div class="innertask">
+                <!-- <div class="items show">
+                <p>TASK <button id="remove-btn">Remove</button></p>
+                <p>TOTAL</p>
+            </div> -->
+            </div>
+        </div>
+        <div class="line">
+        </div>
+        <div class="notes">
+            <p>NOTES</p>
+            <p>TOTAL AMOUNT</p>
+        </div>
+        <div class="cash">
+            <p>We accept cash, credit card, or PayPal</p>
+            <h1 id="total-amount">$0</h1>
+        </div>
+        <div class="invoice">
+            <button class="invoice-btn"><i class='bx bxs-envelope'></i> Send invoice</button>
+        </div>
+    </div>
+    <script src="./javascript/script.js"></script>
+</body>
+
+</html>
